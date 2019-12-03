@@ -1,0 +1,1 @@
+document.write("<script src=\"https://kit.fontawesome.com/83991c6240.js\" crossorigin=\"anonymous\"></script>");
