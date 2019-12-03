@@ -1,5 +1,5 @@
 body {
-    width: 600px;
+    max-width: 600px;
     margin: auto;
     padding: 20px;
     font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
