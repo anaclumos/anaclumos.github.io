@@ -17,6 +17,12 @@ li {
     color: darkorange;
 }
 
+.italicized-small-darkgray {
+    color: gray;
+    font-style: italic;
+    font-size: small;
+}
+
 body {
     background: #000000;
     color: white;
