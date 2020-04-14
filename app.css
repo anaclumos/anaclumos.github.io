@@ -1,38 +1,38 @@
-@import url('https://rsms.me/inter/inter.css');
+@import url("https://rsms.me/inter/inter.css");
+@import url("https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css");
 body {
-    max-width: 600px;
-    margin: auto;
-    padding: 20px;
-    font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Inter", "Apple SD Gothic Neo",
+    "Spoqa Han Sans", "segoe ui", "Helvetica", "Arial", sans-serif,
+    "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 li {
-    padding-top: 10px;
-    padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-.darkorange {
-    color: #e5732f;
+.fiesta {
+  color: #e5732f;
 }
 
 .italicized-small-darkgray {
-    color: gray;
-    font-style: italic;
-    font-size: small;
+  color: gray;
+  font-style: italic;
+  font-size: small;
 }
 
 body {
-    background: #000000;
-    color: white;
-}
-.name {
-    color: darkorange;
+  background: #000000;
+  color: white;
 }
 a,
 a:link,
 a:visited {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
