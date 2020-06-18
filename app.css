@@ -4,9 +4,10 @@ body {
   max-width: 600px;
   margin: auto;
   padding: 20px;
-  font-family: -apple-system, BlinkMacSystemFont, "Inter", "Apple SD Gothic Neo",
-    "Spoqa Han Sans", "segoe ui", "Helvetica", "Arial", sans-serif,
-    "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+  font-family: -apple-system, BlinkMacSystemFont, "Inter",
+    "Apple SD Gothic Neo", "Spoqa Han Sans", "segoe ui", "Helvetica",
+    "Arial", sans-serif, "apple color emoji", "segoe ui emoji",
+    "segoe ui symbol";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -16,7 +17,22 @@ li {
 }
 
 .accentColor {
-  color: #653b90;
+  background: linear-gradient(
+    to right,
+    #eec8df,
+    #e5dcdd,
+    #ddc7ee,
+    #bcd8ed,
+    #e2ccf0,
+    #e7cceb,
+    #e7cceb,
+    #d4ccf5,
+    #dfbef7,
+    #f1c3e8
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .italicized-small-darkgray {
@@ -26,12 +42,14 @@ li {
 }
 
 body {
-  background: white;
-  color: black;
+  background: black;
+  color: gray;
+  font-size: large;
+  font-weight: 700;
 }
 a,
 a:link,
 a:visited {
-  color: black;
+  color: gray;
   text-decoration: none;
 }
