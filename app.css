@@ -1,35 +1,24 @@
 @import url("https://rsms.me/inter/inter.css");
 @import url("https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css");
+
 body {
   max-width: 600px;
   margin: auto;
   padding: 20px;
-  font-family: -apple-system, BlinkMacSystemFont, "Inter",
-    "Apple SD Gothic Neo", "Spoqa Han Sans", "segoe ui", "Helvetica",
-    "Arial", sans-serif, "apple color emoji", "segoe ui emoji",
-    "segoe ui symbol";
+  font-family: -apple-system, BlinkMacSystemFont, "Inter", "Apple SD Gothic Neo",
+    "Spoqa Han Sans", "segoe ui", "Helvetica", "Arial", sans-serif,
+    "apple color emoji", "segoe ui emoji", "segoe ui symbol";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 li {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
 .accentColor {
-  background: linear-gradient(
-    to right,
-    #eec8df,
-    #e5dcdd,
-    #ddc7ee,
-    #bcd8ed,
-    #e2ccf0,
-    #e7cceb,
-    #e7cceb,
-    #d4ccf5,
-    #dfbef7,
-    #f1c3e8
-  );
+  background-color: #fff2a7;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -43,13 +32,14 @@ li {
 
 body {
   background: black;
-  color: gray;
+  color: lightgray;
   font-size: large;
   font-weight: 700;
 }
+
 a,
 a:link,
 a:visited {
-  color: gray;
+  color: lightgray;
   text-decoration: none;
 }
