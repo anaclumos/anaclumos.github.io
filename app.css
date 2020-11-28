@@ -51,7 +51,8 @@ a:visited {
 }
 
 #main {
-  margin: 11rem 0 2rem 0;
+  margin-top: calc(min(50vw, 12rem));
+  margin-bottom: 2rem;
 }
 
 .ticket {
