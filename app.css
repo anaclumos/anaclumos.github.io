@@ -3,20 +3,24 @@
 
 :root {
   --main-bg-color: rgb(34, 43, 71);
-  --main-text-color: lightgray;
+  --main-text-color: rgb(184, 184, 184);
   --main-accent-color: rgb(219, 193, 183);
 }
 
 body {
-  max-width: 400px;
+  max-width: 600px;
   margin: auto;
-  padding: 20px;
   font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Apple SD Gothic Neo',
     'Spoqa Han Sans', 'segoe ui', 'Helvetica', 'Arial', sans-serif,
     'apple color emoji', 'segoe ui emoji', 'segoe ui symbol';
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  background: var(--main-bg-color);
+  color: var(--main-text-color);
+  font-size: large;
+  font-weight: 700;
+}
+
+li {
+  margin: 1rem 0;
 }
 
 table {
@@ -34,30 +38,9 @@ table {
   background-clip: text;
 }
 
-body {
-  background: var(--main-bg-color);
-  color: var(--main-text-color);
-  font-size: large;
-  font-weight: 700;
-}
-
 a,
 a:link,
 a:visited {
   color: var(--main-text-color);
   text-decoration: none;
-}
-
-#main {
-  margin-top: calc(min(50vw, 12rem));
-  margin-bottom: 2rem;
-}
-
-.ticket {
-  background-image: url('./static/ticket.png');
-  background-repeat: no-repeat;
-  background-size: 100%;
-  min-height: 625px;
-  /* background-color: #b49d80; */
-  padding: 0.5rem 0 0.5rem 0;
 }
