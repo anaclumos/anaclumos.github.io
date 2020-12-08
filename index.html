@@ -14,7 +14,10 @@
   </head>
 
   <body>
-    <h1>Hi there!<br />I am <span class="accentColor">Sunghyun Cho</span>.</h1>
+    <div class="hello">
+      <h1>Hi there!</h1>
+    </div>
+    <h1>I am <span class="accentColor">Sunghyun Cho</span>.</h1>
     <hr />
     <ul>
       <li>
@@ -41,4 +44,9 @@
       </li>
     </ul>
   </body>
+  <script>
+    if (Math.random() * 10 < 1) {
+      document.querySelector('.hello').innerText = '안녕!';
+    }
+  </script>
 </html>

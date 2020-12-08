@@ -1,13 +1,19 @@
-@import url("https://rsms.me/inter/inter.css");
-@import url("https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css");
+@import url('https://rsms.me/inter/inter.css');
+@import url('https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css');
+
+:root {
+  --main-bg-color: rgb(34, 43, 71);
+  --main-text-color: lightgray;
+  --main-accent-color: rgb(219, 193, 183);
+}
 
 body {
   max-width: 600px;
   margin: auto;
   padding: 20px;
-  font-family: -apple-system, BlinkMacSystemFont, "Inter", "Apple SD Gothic Neo",
-    "Spoqa Han Sans", "segoe ui", "Helvetica", "Arial", sans-serif,
-    "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+  font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Apple SD Gothic Neo',
+    'Spoqa Han Sans', 'segoe ui', 'Helvetica', 'Arial', sans-serif,
+    'apple color emoji', 'segoe ui emoji', 'segoe ui symbol';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -18,21 +24,15 @@ li {
 }
 
 .accentColor {
-  background-color: #fff2a7;
+  background-color: var(--main-accent-color);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
-.italicized-small-darkgray {
-  color: gray;
-  font-style: italic;
-  font-size: small;
-}
-
 body {
-  background: black;
-  color: lightgray;
+  background: var(--main-bg-color);
+  color: var(--main-text-color);
   font-size: large;
   font-weight: 700;
 }
@@ -40,6 +40,6 @@ body {
 a,
 a:link,
 a:visited {
-  color: lightgray;
+  color: var(--main-text-color);
   text-decoration: none;
 }
