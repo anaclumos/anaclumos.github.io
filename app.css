@@ -8,7 +8,7 @@
 }
 
 body {
-  max-width: 600px;
+  max-width: 400px;
   margin: auto;
   padding: 20px;
   font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Apple SD Gothic Neo',
@@ -16,11 +16,15 @@ body {
     'apple color emoji', 'segoe ui emoji', 'segoe ui symbol';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
 }
 
-li {
-  padding-top: 10px;
-  padding-bottom: 10px;
+table {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  width: calc(100% - 60px);
+  border-spacing: 0;
+  margin: 30px;
 }
 
 .accentColor {
@@ -42,4 +46,18 @@ a:link,
 a:visited {
   color: var(--main-text-color);
   text-decoration: none;
+}
+
+#main {
+  margin-top: calc(min(50vw, 12rem));
+  margin-bottom: 2rem;
+}
+
+.ticket {
+  background-image: url('./static/ticket.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 625px;
+  /* background-color: #b49d80; */
+  padding: 0.5rem 0 0.5rem 0;
 }
