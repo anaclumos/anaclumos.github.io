@@ -17,18 +17,11 @@ body {
   color: var(--main-text-color);
   font-size: large;
   font-weight: 700;
+  padding: 1rem;
 }
 
 li {
   margin: 1rem 0;
-}
-
-table {
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  width: calc(100% - 60px);
-  border-spacing: 0;
-  margin: 30px;
 }
 
 .accentColor {
