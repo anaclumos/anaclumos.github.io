@@ -3,16 +3,53 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Hi there! I am Sunghyun Cho." />
-    <script
-      language="javascript"
-      type="text/javascript"
-      src="include/head.js"
-    ></script>
-    <link rel="stylesheet" type="text/css" href="app.css" />
+    <meta name="description" content="anaclumos" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127955862-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+
+      gtag('config', 'UA-127955862-1')
+    </script>
+    <style type="text/css">
+      @import url('https://rsms.me/inter/inter.css');
+      :root {
+        --main-bg-color: rgb(34, 43, 71);
+        --main-text-color: rgb(184, 184, 184);
+        --main-accent-color: rgb(219, 193, 183);
+      }
+      body {
+        max-width: 600px;
+        margin: auto;
+        font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Apple SD Gothic Neo', 'segoe ui',
+          'Helvetica', 'Arial', sans-serif, 'apple color emoji', 'segoe ui emoji', 'segoe ui symbol';
+        background: var(--main-bg-color);
+        color: var(--main-text-color);
+        font-size: large;
+        font-weight: 700;
+        padding: 1rem;
+      }
+      li {
+        margin: 1rem 0;
+      }
+      .accentColor {
+        background-color: var(--main-accent-color);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+      a,
+      a:link,
+      a:visited {
+        color: var(--main-text-color);
+        text-decoration: none;
+      }
+    </style>
     <title>Sunghyun Cho</title>
   </head>
-
   <body>
     <h1><span class="accentColor">Sunghyun Cho</span></h1>
     <hr />
@@ -23,19 +60,12 @@
         </a>
       </li>
       <li>
-        <a
-          href="https://blog.chosunghyun.com"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
+        <a href="https://blog.chosunghyun.com" target="_blank" rel="noreferrer noopener">
           <span class="accentColor">blog</span>.chosunghyun.com</a
         >
       </li>
       <li>
-        <a
-          href="https://github.com/anaclumos"
-          target="_blank"
-          rel="noreferrer noopener"
+        <a href="https://github.com/anaclumos" target="_blank" rel="noreferrer noopener"
           ><span class="accentColor">github</span>.com/anaclumos
         </a>
       </li>
